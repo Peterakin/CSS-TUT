@@ -692,3 +692,17 @@ hr{
     padding-top: 80px;
     padding-left: 100px;
 }
+
+#assiociates{
+    padding-top: 80px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: rgb(36,38,53);
+}
+
+#assiociates div{
+    margin-left: 50px;
+    margin-right: 50px;
+}
