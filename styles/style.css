@@ -50,7 +50,7 @@ header{
 
 #home{
     display: flex;
-    padding-top: 5%;
+    padding-top: 4%;
     background-color: rgb(36,38,53);
 }
 
@@ -58,6 +58,15 @@ header{
     padding-top: 20%;
     padding-left: 5%;
     color: white;
+    width: 700px;
+}
+
+#man img{
+    height: 600px;
+    width: 400px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 40px;
 }
 
 #p1{
@@ -98,8 +107,10 @@ header{
 }
 
 #icon{
-    padding: 15px;
-    border-radius: 50%;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
     background: transparent;
     color: white;
     border: 3px solid rgb(255,74,87);
@@ -160,7 +171,7 @@ header{
     padding-bottom: 40px;   
 }
 
-.card{
+.card1{
     text-align: left;
     color: white !important;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -176,7 +187,7 @@ header{
     color: rgb(255,74,87) !important;
 }
 
-.card:hover{
+.card1:hover{
     background: rgb(255,74,87) !important;
     color: white !important;
 }
@@ -705,4 +716,198 @@ hr{
 #assiociates div{
     margin-left: 50px;
     margin-right: 50px;
+}
+
+#blog{
+    color: white;
+    background: rgb(31,34,53);
+    text-align: center;
+}
+
+.servicediv11 h6{
+    padding-top: 8%;
+    color: rgb(255,74,87);
+}
+
+.servicediv11 h1{
+    font-size: 400%;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.servicediv11 p{
+    width: 500px;
+    padding-bottom: 20px;
+    margin-left: 350px;
+}
+
+#adminicon{
+    color: rgb(255,74,87) !important;
+}
+
+.servicediv12{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+#readme{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#readme:hover{
+    color: rgb(255,74,87);
+}
+
+.note{
+    font-weight: bold;
+}
+
+.card2{
+    text-align: left;
+    color: white !important;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    background-color: rgb(36,38,53) !important;
+}
+
+#contactme{
+    color: white;
+    background: rgb(31,34,53);
+    text-align: center;
+}
+
+.servicediv13 h6{
+    padding-top: 8%;
+    color: rgb(255,74,87);
+}
+
+.servicediv13 h1{
+    font-size: 400%;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.servicediv13 p{
+    width: 500px;
+    padding-bottom: 20px;
+    margin-left: 350px;
+}
+
+.servicediv14{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#contact1{
+    text-align: left;
+    display: flex;
+    padding: 20px;
+    width: 350px;
+    height: 100px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    background-color: rgb(36,38,53) !important;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+#contact1 div i{
+    color: rgb(255,74,87);
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+#contact1 div span{
+    font-weight: bold;
+}
+
+#contact-form{
+    padding: 50px;
+}
+
+#contact-form #text{
+    width: 520px;
+    height: 50px;
+    margin: 10px;
+    background: rgb(36,38,53);
+    border: transparent;
+    color: white;
+}
+
+#contact-form #subject{
+    width: 1060px;
+    height: 50px;
+    background: rgb(36,38,53);
+    border: transparent;
+    margin: 10px;
+    color: white;
+}
+
+#contact-form #message{
+    width: 1060px;
+    height: 180px;
+    background: rgb(36,38,53);
+    border: transparent;
+    margin: 10px;
+    color: white;
+}
+
+#contact-form button{
+    padding: 12px;
+    width: 200px;
+    border: 3px solid rgb(255,74,87);
+    border-radius: 50px;
+    background-color: rgb(255,74,87);
+    color: white;
+    margin-top: 20px;
+    margin-right: 860px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background: rgb(36,38,53);
+    padding-bottom: 40px;
+}
+
+#footerimg{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+footer img{
+    height: 40px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+footer p{
+    width: 700px;
+    margin-left: 260px;
+    padding-bottom: 40px;
+}
+
+footer button{
+    background: rgb(31,34,53);
+    border: transparent;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    color: white;
+    margin: 10px;
+}
+
+#footerbtn{
+    padding-bottom: 80px;
+}
+
+footer span{
+    color: rgb(255,74,87);
+}
+
+footer button:hover{
+    background: rgb(255,74,87);
 }
